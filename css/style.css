@@ -1,0 +1,120 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   border: 0;
+   list-style: none;
+   color: inherit;
+   text-decoration: inherit;
+   font-family: 'Rubik', 'Arial', sans-serif;
+}
+a {
+   color: inherit;
+   text-decoration: inherit;
+}
+.wrapper {}
+.header {
+   background: #F6F6F6;
+   padding: 30px 0;
+}
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.header__row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.header__left-block {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+.header__logo a {
+   margin-right: 35px;
+   background: #FFFFFF;
+   border-radius: 7px;
+   padding: 8px 6px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   color: #7296EE;
+}
+.valuta {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.header__valuta {
+   margin-right: 25px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   display: flex;
+}
+.header__valuta:first-child::before {
+   content: '$';
+   margin-right: 5px;
+   color: #7296EE;
+}
+.header__valuta:last-child::before {
+   content: 'P';
+   margin-right: 5px;
+   color: #7296EE;
+}
+.header__right-block {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+.header__input {
+   background: #FFFFFF;
+   border-radius: 60px;
+   padding: 15px 20px 15px 40px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   color: #8D8D8D;
+   max-width: 275px ;
+}
+.header form{
+   margin-right: 25px;
+}
+.header__lang {
+   
+background: #DCE6FF;
+border-radius: 39px;
+padding: 3px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 25px;
+}
+.header__lang span{
+   border-radius: 50%;
+   text-transform: lowercase;
+   padding: 7px 9px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #A6A6A6;
+}
+.header__lang span.-active{
+background: #FFFFFF;
+color: #000;
+}
+.-active {}
+.header__sing-in {
+
+   background: #7296EC;
+   border-radius: 10px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   /* identical to box height */
+   
+   
+   color: #FFFFFF;
+   padding: 13px 20px;}
